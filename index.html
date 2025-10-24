@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Life RPG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="character">
+            <img src="assets/silhouette.png" id="silhouette" alt="Silhouette">
+            <img src="assets/weapon_common.png" id="weapon" alt="Weapon" class="equip">
+        </div>
+        <button onclick="equipWeapon()">무기 장착</button>
+        <div class="stats">
+            <p>경험치: <span id="xp">0</span></p>
+            <p>골드: <span id="gold">0</span></p>
+            <p>힘: <span id="strength">5</span></p>
+            <p>지능: <span id="intelligence">3</span></p>
+            <p>운: <span id="luck">1</span></p>
+        </div>
+        <div class="quests">
+            <h2>퀘스트</h2>
+            <button onclick="completeQuest()">방 청소 (쉬움) - +10 XP / +5 골드</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

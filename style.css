@@ -1,0 +1,22 @@
+
+body {
+    font-family: sans-serif;
+    background-color: #f7f7f7;
+    color: #222;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+.character {
+    position: relative;
+    display: inline-block;
+}
+.equip {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 50px;
+}
